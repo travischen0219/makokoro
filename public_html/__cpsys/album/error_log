@@ -1,0 +1,7 @@
+[11-Mar-2015 00:24:54 Asia/Taipei] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/odocomtw/public_html/demo/makokoro/cpsys/sysinc/m_serverchk.php:1) in /home/odocomtw/public_html/demo/makokoro/cpsys/sysinc/m_serverchk.php on line 3
+[17-Jul-2015 16:34:09 Asia/Taipei] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/makokoro/public_html/cpsys/sysinc/m_serverchk.php on line 37
+[17-Jul-2015 16:34:14 Asia/Taipei] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/makokoro/public_html/cpsys/sysinc/m_serverchk.php on line 37
+[17-Jul-2015 16:34:34 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/makokoro/public_html/cpsys/sysinc/m_serverchk.php on line 37
+[17-Jul-2015 16:34:34 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/makokoro/public_html/cpsys/sysinc/m_serverchk.php on line 37
+[17-Jul-2015 16:34:37 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/makokoro/public_html/cpsys/sysinc/m_serverchk.php on line 37
+[17-Jul-2015 16:35:39 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/makokoro/public_html/cpsys/sysinc/m_serverchk.php on line 37

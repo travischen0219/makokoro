@@ -1,0 +1,1 @@
+[13-Mar-2015 16:33:07 Asia/Taipei] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'odocomtw_sa'@'localhost' (using password: YES) in /home/makokoro/public_html/cpsys/sysinc/dbConn.php on line 19

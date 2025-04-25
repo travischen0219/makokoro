@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>靜宜雜誌網::管理中心:::</title>
+<style type="text/css">
+<!--
+body {
+	background-color: #CCCCCC;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+-->
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>系統設定群組權限</title>
+<link rel="stylesheet" type="text/css" href="../sysinc/css.css" />
+</head>
+<center>     
+   <table width="93%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="left"><div id="main-id">系統設定--群組權限</div></td>
+      </tr>      
+      <tr>
+        <td height="40" align="left"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td><table border="0" cellspacing="1" cellpadding="0">
+                <tr>
+                  <td width="63"><img src="../images/n01.png" width="63" height="25" border="0" onclick="javascript:location.replace('group_add.php?m=S00M01');" style="cursor:pointer;" /></td>
+                  <td width="63"><img src="../images/n03.png" width="63" height="25" border="0" onclick="javascript:chk_del('group_del');" style="cursor:pointer;" /></td>
+                </tr>
+              </table>
+             </td>              
+            </tr>
+          </table>
+        </td>
+      </tr>
+  </table>
+  <table width="93%" border="0" cellpadding="3" cellspacing="1" class="w12">
+  	<form name="reg" action="" method="post">
+    <tr class="w12白">
+      <td align="center" width="5%" background="../images/bg3.gif"><input type='checkbox' id='chkall' value='Y' onclick="javascript:chk_all('reg',this);"  ></td>
+      <td align="center" background="../images/bg3.gif" width="5%">No.</td>
+      <td align="center" background="../images/bg3.gif" width="20%">英文名稱</td>
+      <td align="center" background="../images/bg3.gif" width="20%">中文名稱</td>
+      <td align="center" background="../images/bg3.gif" width="20%">權限</td>
+      <td align="center" background="../images/bg3.gif" width="20%">備註</td>
+     	<td width="5%" align="center" background="../images/bg3.gif" class="w12白">修改</td>
+      <td width="5%" align="center" background="../images/bg3.gif" class="w12白">刪除
+     	<input type="hidden" name="hxx_apcode" value="S00M01">
+       <input type="hidden" name="pxx_id">
+     </td>
+    </tr>
+    <tr bgcolor='#FFFFFF'>
+      <td align='center'>
+        <input type='checkbox' id='chkDel0' name='chkDel0' value='10' onClick='javascript:chkthis(this);'></td>
+        <td align='center'>01</td><td align='left'>&nbsp;<a href='javascript:goedit("group_add",10);'>sutdent1</a></td>
+        <td align='left'>&nbsp;<a href='javascript:goedit("group_add",10);'>測1</a></td>
+        <td align='left'>&nbsp;
+          <select name='ofx_AP' size=1>
+          <option value='' style='color:blue'>==會員與作品==</option>
+          <option value=''>&nbsp;會員與作品管理</option>
+          <option value=''>&nbsp;作品資料</option>
+         </select>
+       </td>
+       <td align='left'>&nbsp;測1測1測1測1</td>
+       <td align='center'><img src='../images/bt-revise.gif' border=0 style='cursor:pointer;' onclick='javascript:goedit("group_add",11);'></td><td align='center'><img src='../images/bt-delete.gif' border=0 style='cursor:pointer;' onclick='javascript:godel("reg","0","group_del");'></td></tr><tr bgcolor='#EDEEEF'><td align='center'><input type='checkbox' id='chkDel1' name='chkDel1' value='11' onClick='javascript:chkthis(this);'></td><td align='center'>02</td><td align='left'>&nbsp;<a href='javascript:goedit("group_add",11);'>student2</a></td><td align='left'>&nbsp;<a href='javascript:goedit("group_add",11);'>測2</a></td><td align='left'>&nbsp;<select name='ofx_AP' size=1><option value='' style='color:blue'>==會員與作品==</option><option value=''>&nbsp;作品資料</option><option value='' style='color:blue'>==書城與學訊==</option><option value=''>&nbsp;靜宜書城</option><option value=''>&nbsp;靜宜學訊</option></select></td><td align='left'>&nbsp;備註2</td><td align='center'><img src='../images/bt-revise.gif' border=0 style='cursor:pointer;' onclick='javascript:goedit("group_add",12);'></td><td align='center'><img src='../images/bt-delete.gif' border=0 style='cursor:pointer;' onclick='javascript:godel("reg","1","group_del");'></td></tr><tr bgcolor='#FFFFFF'><td align='center'><input type='checkbox' id='chkDel2' name='chkDel2' value='12' onClick='javascript:chkthis(this);'></td><td align='center'>03</td><td align='left'>&nbsp;<a href='javascript:goedit("group_add",12);'>student3</a></td><td align='left'>&nbsp;<a href='javascript:goedit("group_add",12);'>測3</a></td><td align='left'>&nbsp;<select name='ofx_AP' size=1><option value='' style='color:blue'>==書城與學訊==</option><option value=''>&nbsp;靜宜書城</option><option value=''>&nbsp;靜宜學訊</option></select></td><td align='left'>&nbsp;note3</td><td align='center'><img src='../images/bt-revise.gif' border=0 style='cursor:pointer;' onclick='javascript:goedit("group_add",);'></td><td align='center'><img src='../images/bt-delete.gif' border=0 style='cursor:pointer;' onclick='javascript:godel("reg","2","group_del");'></td></tr> 
+   </form>   
+  </table>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  	<form name="reg1" action="" method="post">
+    <tr>
+      <input type="hidden" name="hxx_nowpage"></td>
+    </tr>
+    <tr>
+      <td align="center" class="w12">      	
+      	      	</td>
+    </tr>
+    </form>
+  </table>
+</center>
+</center>
+</body>
+</html>
+<script src="../sysinc/common_list_ctrl.js" type="text/javascript"></script>
+<script language=javascript>
+	//parent.frames[0].document.getElementById("divpath").innerHTML="系統設定 &gt; 群組權限" ;	  	
+</script> 	

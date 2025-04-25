@@ -1,0 +1,2 @@
+[18-Feb-2014 15:22:48 Asia/Taipei] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, object given in /home/odocomtw/public_html/demo/onion/cpsys/groupadmin/group_list.php on line 142
+[18-Feb-2014 15:23:04 Asia/Taipei] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, object given in /home/odocomtw/public_html/demo/onion/cpsys/groupadmin/group_list.php on line 142

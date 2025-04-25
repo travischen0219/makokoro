@@ -1,0 +1,33 @@
+/*
+Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.html or http://ckeditor.com/license
+*/
+
+body
+{
+	/* Font */
+	font: 14px/20px 'Apple LiGothic Medium', '·L³n¥¿¶ÂÅé', 'Microsoft JhengHei', Verdana, Geneva, sans-serif;
+	/*font-size:0.875em;*/
+	letter-spacing: 0.1em;
+
+	/* Text color */
+	color: #222;
+
+	/* Remove the background color to make it transparent */
+	background-color: #fff;
+}
+
+ol,ul,dl
+{
+	/* IE7: reset rtl list margin. (#7334) */
+	*margin-right:0px;
+	/* preserved spaces for list items with text direction other than the list. (#6249,#8049)*/
+    padding:0 40px;
+}
+
+h1 { font-size:2.9em; }
+	h2 { font-size:2.3em; }
+	h3 { font-size:2.1em; }
+	h4 { font-size:1.9em; }
+	h5 { font-size:1.7em; }
+	h6 { font-size:1.5em; }
